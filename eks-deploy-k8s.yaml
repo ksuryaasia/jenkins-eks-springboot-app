@@ -36,6 +36,6 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 8085
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: springboot-app
