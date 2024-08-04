@@ -19,7 +19,7 @@ spec:
         image: sgandla33/ci-cd-eks-image:v2
         imagePullPolicy: Always
         ports:
-        - containerPort: 8085
+        - containerPort: 8080
           name: http
           protocol: TCP
 # service type loadbalancer
