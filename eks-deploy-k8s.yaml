@@ -29,7 +29,6 @@ kind: Service
 metadata:
   labels:
     app: springboot-app
-    k8s-app: springboot-app
   name: springboot-app
 spec:
   ports:
